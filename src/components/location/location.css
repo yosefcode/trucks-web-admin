@@ -1,0 +1,31 @@
+.imgmarker {
+  width: 20px;
+}
+.timelocation {
+  padding-top: 5px;
+  background-color: rgb(66, 66, 66);
+  text-align: center;
+  color: rgb(255, 255, 255);
+  width: 40px;
+  height: 20px;
+  border-radius: 5px;
+  left: -10px;
+  bottom: 2px;
+  position: absolute;
+  font-weight: bold;
+}
+.maps {
+  height: 500px;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 10;
+}
+.selectlocation {
+  position: absolute;
+  top: -10px;
+  left: 45%;
+}
+.location {
+  position: relative;
+  margin-top: 0px;
+}

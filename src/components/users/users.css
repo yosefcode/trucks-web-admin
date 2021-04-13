@@ -1,0 +1,70 @@
+.users {
+  margin: 60px auto;
+  position: absolute;
+  text-align: center;
+  width: 75%;
+  left: 25%;
+}
+
+.users .divtable {
+  position: absolute;
+  left: 15%;
+  width: 70%;
+}
+
+.users table,
+td,
+th {
+  border: 0px solid black;
+}
+
+.users .MuiTableCell-stickyHeader {
+  background-color: rgb(124, 124, 124) !important;
+  color: white !important;
+  text-align: center !important;
+  font-weight: 700 !important;
+}
+
+.users .divpassword {
+  position: relative;
+  width: 90%;
+  height: 38px;
+  display: flex;
+}
+
+.users .divinputpassword {
+  position: absolute;
+  width: 60%;
+  height: 38px;
+}
+.users .inputpassword {
+  background-color: transparent;
+  border: none;
+  color: black;
+  width: 100%;
+  text-align: center;
+  margin: 15px auto;
+  text-align: right;
+}
+
+.users .diviconhiden {
+  width: 40%;
+  position: absolute;
+  left: 70%;
+  height: 38px;
+  text-align: left;
+}
+.users .iconhiden {
+  margin: 10px auto;
+}
+
+.users .divsidebar {
+  position: fixed;
+  width: 25%;
+  height: 100%;
+  left: 0;
+  align-items: center;
+  background-color: rgb(228, 228, 228);
+  z-index: 5;
+  top: 60px;
+}

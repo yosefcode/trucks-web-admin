@@ -1,0 +1,15 @@
+.modalusers {
+  text-align: center;
+}
+.modalusers .btnmodal {
+  margin: 30px auto !important;
+}
+/* .divadduser {
+  margin: 100px auto;
+} */
+
+.modalusers .divinput {
+  text-align: left;
+  margin: 40px auto 0px !important;
+  width: 90%;
+}

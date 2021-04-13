@@ -1,0 +1,35 @@
+.home {
+  margin: 60px auto;
+  left: 300px;
+  position: absolute;
+  text-align: center;
+}
+/* .home table {
+  border-collapse: collapse !important;
+}
+.home table,
+td,
+th {
+  border: 1px solid black !important;
+} */
+
+.home .MuiTableCell-stickyHeader {
+  background-color: rgb(124, 124, 124) !important;
+  color: white !important;
+  text-align: center !important;
+  font-weight: 700 !important;
+}
+
+.divopentable {
+  display: flex;
+  width: 100%;
+}
+.divopenload {
+  /* position: absolute; */
+  width: 40%;
+}
+.divopenlocation {
+  height: auto;
+  width: 60%;
+  padding-left: 90px;
+}

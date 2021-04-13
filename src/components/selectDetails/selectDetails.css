@@ -1,0 +1,24 @@
+.divbtn {
+  position: absolute;
+  width: 40px;
+  top: 10px;
+  right: -20%;
+}
+.aa {
+  position: relative;
+  width: 100%;
+}
+.btn {
+  cursor: pointer;
+}
+.btnrmv {
+  position: fixed;
+  bottom: 20px;
+  width: 16.1%;
+}
+.err {
+  position: fixed;
+  bottom: 70px;
+  width: 16.1%;
+  color: red;
+}

@@ -1,0 +1,13 @@
+.addusers .divadduser {
+  margin: 100px auto;
+}
+
+.addusers .divinput {
+  text-align: left;
+  margin: 40px auto 0px !important;
+  width: 90%;
+}
+
+.addusers .btnadduser {
+  margin: 30px auto !important;
+}

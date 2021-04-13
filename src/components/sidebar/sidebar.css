@@ -1,0 +1,23 @@
+.sidebar {
+  padding: 0px 30px;
+  height: 100%;
+  width: 200px;
+  /* top: 60px; */
+  left: 0;
+  align-items: center;
+  position: fixed;
+  background-color: rgb(228, 228, 228);
+  z-index: 5;
+}
+
+.sidebar .datepicker {
+  margin-top: 80px;
+}
+
+.sidebar .selectdrivers {
+  margin-top: 80px;
+}
+
+.sidebar #select {
+  width: 160px;
+}
