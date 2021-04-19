@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import "./App.css";
@@ -159,19 +159,31 @@ function App() {
     },
   ];
 
-  //   const topFunction = () => {
-  //     document.documentElement.scrollTop = 0;
-  //   };
+  const [login, setLogin] = useState();
+
+  useEffect(() => {
+    JSON.parse(localStorage.getItem("userName")) ===
+      process.env.REACT_APP_EMAILDEMO &&
+    JSON.parse(localStorage.getItem("password")) ===
+      process.env.REACT_APP_PASSDEMO
+      ? setLogin(false)
+      : setLogin(true);
+  }, []);
 
   return (
     <div id="App" className="App">
       <Router>
         <Switch>
-          <Route exact path="/">
-            <Bar />
-            <Login />
-          </Route>
-
+          {login ? (
+            <Route exact path="/">
+              <Login />
+            </Route>
+          ) : (
+            <Route exact path="/">
+              <Bar />
+              <Home students={students} loads={loads} />
+            </Route>
+          )}
           <Route exact path="/works/:id">
             <Bar />
             <Home students={students} loads={loads} />

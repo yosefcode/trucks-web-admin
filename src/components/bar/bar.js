@@ -18,6 +18,16 @@ const Bar = () => {
         <a className={id === "c" ? "divtrue" : "divfalse"} href="/details/c">
           details{" "}
         </a>{" "}
+        <a
+          className="divfalse"
+          href="/"
+          onClick={() => {
+            localStorage.removeItem("password");
+            localStorage.removeItem("userName");
+          }}
+        >
+          Change User{" "}
+        </a>{" "}
       </div>
     </div>
   );

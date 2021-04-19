@@ -14,9 +14,6 @@ import DeleteIcon from "@material-ui/icons/Delete";
 import VisibilityOffIcon from "@material-ui/icons/VisibilityOff";
 import VisibilityIcon from "@material-ui/icons/Visibility";
 import EditIcon from "@material-ui/icons/Edit";
-import { ThemeProvider, createMuiTheme } from "@material-ui/core/styles";
-import Button from "@material-ui/core/Button";
-import { TableSortLabel } from "@material-ui/core";
 
 const Users = () => {
   const [UserNames, setUserNames] = useState([
