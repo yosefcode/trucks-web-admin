@@ -17,7 +17,7 @@ const Users = (props) => {
       width: "100%",
     },
     container: {
-      maxHeight: 360,
+      maxHeight: 370,
     },
     margin: {
       margin: theme.spacing(5),
