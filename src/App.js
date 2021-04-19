@@ -161,14 +161,14 @@ function App() {
 
   const [login, setLogin] = useState();
 
-  useEffect(() => {
-    JSON.parse(localStorage.getItem("userName")) ===
-      process.env.REACT_APP_EMAILDEMO &&
-    JSON.parse(localStorage.getItem("password")) ===
-      process.env.REACT_APP_PASSDEMO
-      ? setLogin(false)
-      : setLogin(true);
-  }, []);
+  // useEffect(() => {
+  //   JSON.parse(localStorage.getItem("userName")) ===
+  //     process.env.REACT_APP_EMAILDEMO &&
+  //   JSON.parse(localStorage.getItem("password")) ===
+  //     process.env.REACT_APP_PASSDEMO
+  //     ? setLogin(false)
+  //     : setLogin(true);
+  // }, []);
 
   return (
     <div id="App" className="App">
