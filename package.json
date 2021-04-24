@@ -27,7 +27,7 @@
   "scripts": {
     "starta": "react-scripts start | node server.js",
     "start": "react-scripts start",
-    "build": "npm run build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
