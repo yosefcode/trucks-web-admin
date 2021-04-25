@@ -19,7 +19,13 @@ th {
 }
 
 .users .MuiTableCell-stickyHeader {
-  background-color: rgb(124, 124, 124) !important;
+  background: linear-gradient(
+    #b1b3ff,
+    #5754ff,
+    #0003bd,
+    #5754ff,
+    #b1b3ff
+  ) !important;
   color: white !important;
   text-align: center !important;
   font-weight: 700 !important;
