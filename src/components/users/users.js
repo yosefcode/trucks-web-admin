@@ -115,6 +115,9 @@ const Users = () => {
             style={{ width: "10%" }}
           >
             <DeleteIcon
+              style={{
+                color: "red",
+              }}
               onClick={() => {
                 setOpen(true);
                 setRemove(user);
@@ -129,6 +132,9 @@ const Users = () => {
             style={{ width: "10%" }}
           >
             <EditIcon
+              style={{
+                color: "blue",
+              }}
               onClick={() => {
                 setEdit(true);
                 setOpen(true);

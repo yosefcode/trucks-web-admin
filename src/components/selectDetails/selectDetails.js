@@ -92,7 +92,7 @@ const Selected = (props) => {
             <AddCircleIcon
               className="btn"
               name="AddCircleIcon"
-              style={{ fontSize: 35, color: grey[600] }}
+              style={{ fontSize: 35, color: "blue" }}
               onClick={!inputValue ? null : add}
             />
           </div>
@@ -114,7 +114,14 @@ const Selected = (props) => {
       </FormControl>
 
       <div className="btnrmv">
-        <Button variant="contained" onClick={remove}>
+        <Button
+          variant="contained"
+          onClick={remove}
+          style={{
+            color: "blue",
+            background: "linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)",
+          }}
+        >
           remove
         </Button>
       </div>

@@ -69,7 +69,11 @@ const Users = (props) => {
               onChange={onchange}
               startAdornment={
                 <InputAdornment position="start">
-                  <AccountCircle />
+                  <AccountCircle
+                    style={{
+                      color: "blue",
+                    }}
+                  />
                 </InputAdornment>
               }
             />
@@ -84,7 +88,11 @@ const Users = (props) => {
               id="input-with-icon-adornment"
               startAdornment={
                 <InputAdornment position="start">
-                  <LooksOneIcon />
+                  <LooksOneIcon
+                    style={{
+                      color: "blue",
+                    }}
+                  />
                 </InputAdornment>
               }
             />
@@ -99,7 +107,11 @@ const Users = (props) => {
               onChange={onchange}
               startAdornment={
                 <InputAdornment position="start">
-                  <VpnKeyIcon />
+                  <VpnKeyIcon
+                    style={{
+                      color: "blue",
+                    }}
+                  />
                 </InputAdornment>
               }
             />

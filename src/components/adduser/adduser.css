@@ -9,5 +9,16 @@
 }
 
 .addusers .btnadduser {
-  margin: 30px auto !important;
+  width: 70%;
+  height: 60px;
+  color: white;
+  font-weight: 700;
+  margin: 40px auto !important;
+  background: linear-gradient(
+    #b1b3ff,
+    #5754ff,
+    #0003bd,
+    #5754ff,
+    #b1b3ff
+  ) !important;
 }
