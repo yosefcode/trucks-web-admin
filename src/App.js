@@ -14,7 +14,7 @@ function App() {
       ID: 1110405210915,
       Driver: "Josef",
       Date: "04/05/2021",
-      Constractor: "bb",
+      Constractor: "bbb",
       Customer: "momo",
       Origin: "aaa",
       Destination: "bbb",
