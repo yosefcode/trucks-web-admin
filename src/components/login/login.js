@@ -67,14 +67,14 @@ export default function Login() {
     }, 2000);
   };
 
-  // const handleClose = () => {
-  //   JSON.parse(localStorage.getItem("userName")) ===
-  //     process.env.REACT_APP_EMAILDEMO &&
-  //   JSON.parse(localStorage.getItem("password")) ===
-  //     process.env.REACT_APP_PASSDEMO
-  //     ? access()
-  //     : setMessageErr(true);
-  // };
+  const handleClose = () => {
+    JSON.parse(localStorage.getItem("userName")) ===
+      process.env.REACT_APP_EMAILDEMO &&
+    JSON.parse(localStorage.getItem("password")) ===
+      process.env.REACT_APP_PASSDEMO
+      ? access()
+      : setMessageErr(true);
+  };
 
   return (
     <Modal
@@ -152,9 +152,9 @@ export default function Login() {
                   variant="contained"
                   className={classes.btn}
                   // href="/works/a"
-                  // onClick={() => {
-                  //   handleClose();
-                  // }}
+                  onClick={() => {
+                    handleClose();
+                  }}
                 >
                   login{" "}
                 </Button>
